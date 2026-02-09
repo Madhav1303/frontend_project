@@ -1,3 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;          /* full screen height */
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  padding: 40px;
+  text-align: center;
+}
+
+main {
+  text-align: center;
+}
+
 #container1{
     text-align: center;
     background-color:black;
@@ -5,6 +26,7 @@
     width: 300px;
     margin: 20px auto
 }
+
 #container2{
     text-align: center;
     background-color:lightskyblue;
@@ -12,16 +34,11 @@
     width: 300px;
     margin: 20px auto
 }
-footer{
-    background-color: black;
-    color: white;
-    border-style: solid;
-    border-width: 2px;
-    padding: 2px;
-}
-#heading{
-    text-align: center;
-}
-#about{
-    text-align: center;
+
+footer {
+  margin-top: auto;           /* MAGIC LINE ✨ */
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
 }
