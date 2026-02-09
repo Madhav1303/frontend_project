@@ -12,8 +12,11 @@ body {
 
 header {
   padding: 40px;
-  text-align: center;
+  display: flex;
+  justify-content: space-between; /* left text, right buttons */
+  align-items: center;            /* vertical alignment */
 }
+
 header h1{
     margin-bottom: 15px;
 }
@@ -23,9 +26,20 @@ header p{
     color: blue;
 }
 
-main {
-  text-align: center;
+.header-text {
+  max-width: 70%;
 }
+
+.header-actions {
+  display: flex;
+  gap: 10px; /* space between buttons */
+}
+
+.header-actions button {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
 
 #container1{
     text-align: center;
