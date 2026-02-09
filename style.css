@@ -19,3 +19,9 @@ footer{
     border-width: 2px;
     padding: 2px;
 }
+#heading{
+    text-align: center;
+}
+#about{
+    text-align: center;
+}
