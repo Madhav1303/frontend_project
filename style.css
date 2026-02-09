@@ -1,7 +1,21 @@
-#container{
+#container1{
     text-align: center;
     background-color:black;
     color: white;
     width: 300px;
     margin: 20px auto
+}
+#container2{
+    text-align: center;
+    background-color:lightskyblue;
+    color: white;
+    width: 300px;
+    margin: 20px auto
+}
+footer{
+    background-color: black;
+    color: white;
+    border-style: solid;
+    border-width: 2px;
+    padding: 2px;
 }
