@@ -49,6 +49,11 @@ header p{
     margin: 20px auto
 }
 
+
+#sub:hover, #clr:hover{
+  background-color: grey;
+}
+
 #container2{
     text-align: center;
     background-color:lightskyblue;
