@@ -11,11 +11,11 @@ body {
   background-color: #f2f7ff;
 }
 
-header {
+ header {
   padding: 40px;
-  display: flex;
-  justify-content: space-between; /* left text, right buttons */
-  align-items: center;            /* vertical alignment */
+  display: block;
+  /*justify-content: space-between;*/ /*left text, right buttons*/ 
+  /*align-items: center;*/             /*vertical alignment*/ 
 }
 
 header h1{
@@ -28,17 +28,25 @@ header p{
 }
 
 .header-text {
-  max-width: 70%;
+  /*max-width: 70%;*/
+  display: flex;
 }
 
 .header-actions {
   display: flex;
-  gap: 10px; /* space between buttons */
+ /* gap: 10px;*/ /* space between buttons */
+  justify-content:space-between ;
 }
 
 .header-actions button {
   padding: 8px 16px;
   cursor: pointer;
+}
+
+.buttons{
+  display: flex;
+  /*justify-content:center;*/
+  gap: 20px;
 }
 
 #btnsignup{
@@ -55,7 +63,7 @@ header p{
 #btnlogin{
   background-color: #f3f4f6;
   color: #1f2937;
-  border: #d1d5db;
+  border:1px solid #d1d5db;
   border-radius: 6px;
 }
 
