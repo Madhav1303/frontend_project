@@ -41,7 +41,27 @@ header p{
   cursor: pointer;
 }
 
+#btnsignup{
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
 
+#btnsignup:hover{
+  color: red;
+}
+
+#btnlogin{
+  background-color: #f3f4f6;
+  color: #1f2937;
+  border: #d1d5db;
+  border-radius: 6px;
+}
+
+#btnlogin:hover{
+  color: #e5e7eb;
+}
 #container1{
     text-align: center;
     background-color:black;
