@@ -71,17 +71,24 @@ header p{
   color: #e5e7eb;
 }
 #container1{
+    padding: 10px;
     text-align: center;
-    background-color:black;
-    color: white;
+    background-color:white;
+    color: black;
     width: 300px;
     margin: 20px auto
 }
 
-
-#sub:hover, #clr:hover{
-  background-color: grey;
+#sub{
+  border: 10px solid #1E90D8;
+  background-color: #1E90D8;
+  color: white;
+  width: 200px;
+  border-radius: 6px;
 }
+/*#sub:hover, #clr:hover{
+  background-color: grey;
+}*/
 
 #container2{
     text-align: center;
