@@ -78,6 +78,16 @@ header p{
     width: 300px;
     margin: 20px auto
 }
+#container1 #signup_google{
+ color: black;
+ border : 2px solid #5F6368;
+ background-color: white;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ padding-left: 20px;
+ padding-right: 20px;
+ border-radius: 6px;
+}
 
 #sub{
   border: 10px solid #1E90D8;
