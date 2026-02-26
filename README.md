@@ -75,7 +75,6 @@ If validation fails, the user is alerted with appropriate messages.
 ## 🎯 Purpose of the Project
 - To practice frontend fundamentals
 - To understand form validation using JavaScript
-- To learn DOM manipulation
 - Suitable for **beginners**
 
 ---
