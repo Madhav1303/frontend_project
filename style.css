@@ -61,22 +61,22 @@ header p {
 }
 
 #btnsignup:hover {
-  color: red;
+  color: #0051ff;
 }
 
 #btnlogin {
   background-color: #f3f4f6;
-  color: #1f2937;
+  color: rgb(0, 0, 0);
   border: 1px solid #d1d5db;
   border-radius: 6px;
 }
 
 #btnlogin:hover {
-  color: #e5e7eb;
+  color: #ccced2;
 }
 
 #container1 {
-  padding: 10px;
+  padding: 20px;
   text-align: center;
   background-color: white;
   color: black;
@@ -113,7 +113,7 @@ header p {
   color: black;
   width: 300px;
   margin: 20px auto;
-  padding: 10px;
+  padding: 20px;
 }
 
 footer {
