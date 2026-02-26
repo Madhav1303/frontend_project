@@ -103,9 +103,9 @@ header p {
   border-radius: 6px;
 }
 
-/*#sub:hover, #clr:hover{
-  color: #1E90D8;
-}*/
+#sub:hover{
+  color: #2563EB;
+}
 
 #container2 {
   text-align: center;
