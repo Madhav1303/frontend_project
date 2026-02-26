@@ -10,7 +10,7 @@ alert("Invalid input");
 function validateEmail()
 {
 var email = document.getElementById("email").value; 
-if(email.includes("@") && email.includes("."))
+if(email.includes("@") && email.includes(".com"))
 return true; 
 else
 return false;
@@ -65,6 +65,7 @@ const pass = document.getElementById("password").value;
     return false;
 }
 
+/*
 function validatePhoneNo()
 {
 var phone_no = document.getElementById("number").value; 
@@ -81,3 +82,4 @@ if(flag) return true
 else
 return false
 }
+*/
