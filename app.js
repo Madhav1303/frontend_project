@@ -1,8 +1,16 @@
-var name = document.getElementById("name") ;
-function validate()
+function validate_signup()
+{
+let name = document.getElementById("name").value;
+if(validateEmail() && validatePassword() && name) 
+    alert("Signup Successfull");
+else
+alert("Invalid input");
+}
+
+function validate_login()
 {
 if(validateEmail() && validatePassword()) 
-    alert("Form Successfully Submitted");
+    alert("Login Successfull");
 else
 alert("Invalid input");
 }
