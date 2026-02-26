@@ -1,7 +1,7 @@
 var name = document.getElementById("name") ;
 function validate()
 {
-if(validateEmail() && validatePassword() && validatePhoneNo()) 
+if(validateEmail() && validatePassword()) 
     alert("Form Successfully Submitted");
 else
 alert("Invalid input");
