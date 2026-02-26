@@ -57,8 +57,6 @@ If validation fails, the user is alerted with appropriate messages.
 
 ---
 
----
-
 ## 🛠️ Technologies Used
 - **HTML5** – Page structure
 - **CSS3** – Styling and layout
