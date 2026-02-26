@@ -5,26 +5,29 @@
 }
 
 body {
-  min-height: 100vh;          /* full screen height */
+  min-height: 100vh;
+  /* full screen height */
   display: flex;
   flex-direction: column;
   background-color: #f2f7ff;
 }
 
- header {
+header {
   padding: 40px;
   display: block;
-  /*justify-content: space-between;*/ /*left text, right buttons*/ 
-  /*align-items: center;*/             /*vertical alignment*/ 
+  /*justify-content: space-between;*/
+  /*left text, right buttons*/
+  /*align-items: center;*/
+  /*vertical alignment*/
 }
 
-header h1{
-    margin-bottom: 15px;
+header h1 {
+  margin-bottom: 15px;
 }
 
-header p{
-    font-size: 20px;
-    color: blue;
+header p {
+  font-size: 20px;
+  color: blue;
 }
 
 .header-text {
@@ -34,8 +37,9 @@ header p{
 
 .header-actions {
   display: flex;
- /* gap: 10px;*/ /* space between buttons */
-  justify-content:space-between ;
+  /* gap: 10px;*/
+  /* space between buttons */
+  justify-content: space-between;
 }
 
 .header-actions button {
@@ -43,74 +47,78 @@ header p{
   cursor: pointer;
 }
 
-.buttons{
+.buttons {
   display: flex;
   /*justify-content:center;*/
   gap: 20px;
 }
 
-#btnsignup{
+#btnsignup {
   background-color: #2563eb;
   color: white;
   border: none;
   border-radius: 6px;
 }
 
-#btnsignup:hover{
+#btnsignup:hover {
   color: red;
 }
 
-#btnlogin{
+#btnlogin {
   background-color: #f3f4f6;
   color: #1f2937;
-  border:1px solid #d1d5db;
+  border: 1px solid #d1d5db;
   border-radius: 6px;
 }
 
-#btnlogin:hover{
+#btnlogin:hover {
   color: #e5e7eb;
 }
-#container1{
-    padding: 10px;
-    text-align: center;
-    background-color:white;
-    color: black;
-    width: 300px;
-    margin: 20px auto
-}
-#container1 #signup_google{
- color: black;
- border : 2px solid #5F6368;
- background-color: white;
- padding-top: 10px;
- padding-bottom: 10px;
- padding-left: 20px;
- padding-right: 20px;
- border-radius: 6px;
+
+#container1 {
+  padding: 10px;
+  text-align: center;
+  background-color: white;
+  color: black;
+  width: 300px;
+  margin: 20px auto
 }
 
-#sub{
+#container1 #signup_google {
+  color: black;
+  border: 2px solid #5F6368;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 6px;
+}
+
+#sub {
   border: 10px solid #1E90D8;
   background-color: #1E90D8;
   color: white;
   width: 200px;
   border-radius: 6px;
 }
+
 /*#sub:hover, #clr:hover{
   color: #1E90D8;
 }*/
 
-#container2{
-    text-align: center;
-    background-color:white;
-    color: black;
-    width: 300px;
-    margin: 20px auto;
-    padding: 10px;
+#container2 {
+  text-align: center;
+  background-color: white;
+  color: black;
+  width: 300px;
+  margin: 20px auto;
+  padding: 10px;
 }
 
 footer {
-  margin-top: auto;           /* MAGIC LINE ✨ */
+  margin-top: auto;
+  /* MAGIC LINE ✨ */
   margin-left: 10px;
   margin-right: 10px;
   background: #222;
