@@ -6,7 +6,6 @@
 
 body {
   min-height: 100vh;
-  /* full screen height */
   display: flex;
   flex-direction: column;
   background-color: #f2f7ff;
@@ -15,10 +14,6 @@ body {
 header {
   padding: 40px;
   display: block;
-  /*justify-content: space-between;*/
-  /*left text, right buttons*/
-  /*align-items: center;*/
-  /*vertical alignment*/
 }
 
 header h1 {
@@ -31,14 +26,11 @@ header p {
 }
 
 .header-text {
-  /*max-width: 70%;*/
   display: flex;
 }
 
 .header-actions {
   display: flex;
-  /* gap: 10px;*/
-  /* space between buttons */
   justify-content: space-between;
 }
 
@@ -49,7 +41,6 @@ header p {
 
 .buttons {
   display: flex;
-  /*justify-content:center;*/
   gap: 20px;
 }
 
@@ -103,7 +94,7 @@ header p {
   border-radius: 6px;
 }
 
-#sub:hover{
+#sub:hover {
   color: #2563EB;
 }
 
@@ -118,7 +109,6 @@ header p {
 
 footer {
   margin-top: auto;
-  /* MAGIC LINE ✨ */
   margin-left: 10px;
   margin-right: 10px;
   background: #222;
