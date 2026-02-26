@@ -14,11 +14,9 @@ function validate_login() {
 }
 
 function validateEmail() {
-    var email = document.getElementById("email").value;
-    if (email.includes("@") && email.includes(".com"))
-        return true;
-    else
-        return false;
+    let email = document.getElementById("email").value.trim();
+    let emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailPattern.test(email);
 }
 
 function validatePassword() {
