@@ -82,7 +82,7 @@ If validation fails, the user is alerted with appropriate messages.
 ## 📂 How to Run the Project
 1.Create a folder in your computer and open the folder in VSCode<br>
 2.Clone the repository by using the git command - git clone https://github.com/Madhav1303/frontend_project <br>
-3.Open `landingpage.html` in any web browser <br>
+3.Open index.html in any web browser <br>
 4. Navigate using the Signup and Login buttons
 
 ---
